@@ -1,3 +1,4 @@
+val json: JsValue = Json.parse("""
 {"menu":{
 "Subject":[
 	{
@@ -16,3 +17,4 @@
 	}
 ]
 }}
+		""")
