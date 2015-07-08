@@ -1,20 +1,41 @@
-val json: JsValue = Json.parse("""
 {"menu":{
-"Subject":[
-	{
-		"Physics":[
-			{"name":"John","marks";"10"},
-			{"name":"Bill","marks";"20"},
-			{"name":"Sam","marks";"30"},
-			{"name":"Dennis","marks";"40"}
-		]
-		"Maths":[
-			{"name":"John","marks";"40"},		
-			{"name":"Bill","marks";"30"},
-			{"name":"Sam","marks";"20"},
-			{"name":"Dennis","marks";"60"}
-		]
-	}
+"subject":
+{
+"physics": [
+{
+"name": "John",
+"marks": 10
+},
+{
+"name": "Bill",
+"marks": 20
+},
+{
+"name": "Sam",
+"marks": 30
+},
+{
+"name": "Dennis",
+"marks": 40
+}
+],
+"maths": [
+{
+"name": "John",
+"marks": 40
+},
+{
+"name": "Bill",
+"marks": 30
+},
+{
+"name": "Sam",
+"marks": 20
+},
+{
+"name": "Dennis",
+"marks": 60
+}
 ]
+}
 }}
-		""")
